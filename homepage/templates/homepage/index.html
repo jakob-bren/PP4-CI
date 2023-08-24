@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<head>
+  <title>Student Information</title>
+</head>
+
+<body>
+  <h2>Student Information</h2>
+
+  {% if students_list %}
+  <ul>
+      {% for student in students_list %}
+      <li> <b> {{student.name}} </b> | {{student.rollno}} </li>
+      {% endfor %}
+  </ul>
+  {% else %}
+  <p>No student information available in the database. </p>
+  {% endif %}
+</body>
+
+</html>
