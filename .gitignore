@@ -8,3 +8,8 @@ node_modules/
 .github/
 cloudinary_python.txt
 *.pem
+*.crt
+*.key
+evie.mrman.crt
+whole.json
+db.sqlite3
